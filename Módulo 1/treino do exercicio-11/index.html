@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino 11</title>
+</head>
+<body>
+    <h1>Imagem adaptativa</h1>
+    <p>Use a tag &lt;picture&gt; para criar imagens adaptativas</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png">
+        <img src="Imagens/foto-g.png" alt="">
+    </picture>
+    <h1>Adicionando audios</h1>
+    <p>use a tag &lt;audio&gt; para adicionar</p>
+    <p>adicione o preload "metadata" para que o audio seja parcialmente carregado, diminuindo o comsumo de dados por parte do usuário. Após isso adicione autoplay e controls</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/City Walk - John Patitucci.mp3" type="audio/mp3">
+    </audio>
+    <p>City Walk- John Patitucci</p>
+</body>
+</html>
